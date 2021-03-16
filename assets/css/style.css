@@ -44,7 +44,8 @@ nav a:active, nav a:hover{
     background-color: #39aae1;
     color: #ffffff;
 }
-.banner{
-    background: url(img/img1.jpg) no-repeat center center fixed;
+#banner{
+    background: url('../img/img1.jpg') center;
     background-size: cover;
+    height: 670px;
 }
