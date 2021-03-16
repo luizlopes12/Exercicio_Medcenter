@@ -20,7 +20,8 @@ header{
     align-items: center;
 }
 .menu{
-
+    display: flex;
+    align-items: center;
 }
 nav ul,
 nav li{
@@ -30,4 +31,15 @@ nav li{
 }
 nav ul{
     display: flex;
+}
+nav a{
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #727272;
+}
+nav a:active, nav a:hover{
+    background-color: #39aae1;
+    color: #ffffff;
 }
