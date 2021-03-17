@@ -54,3 +54,9 @@ nav a:active, nav a:hover{
 .column{
     flex-direction: column;
 }
+.banner-headline{
+    flex: 1;
+}
+.banner-options{
+    height: 210px;
+}
