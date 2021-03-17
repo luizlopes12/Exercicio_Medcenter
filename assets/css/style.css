@@ -60,7 +60,6 @@ nav a:active, nav a:hover{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    flex: 1;
 }
 .banner-headline h1{
     color: #ffffff;
@@ -81,6 +80,7 @@ nav a:active, nav a:hover{
 }
 .banner-options{
     height: 210px;
+    color: #ffffff;
     display: flex;
 }
 .banner1, .banner2, .banner3{
@@ -102,4 +102,12 @@ nav a:active, nav a:hover{
 .banner-desc{
     font-size: 12px;
     margin: 20px 0;
+}
+.banner-options a{
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid #fff;
+    color: #ffffff;
+    font-size: 13px;
+    text-decoration: none;
 }
