@@ -55,8 +55,27 @@ nav a:active, nav a:hover{
     flex-direction: column;
 }
 .banner-headline{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     flex: 1;
 }
 .banner-options{
     height: 210px;
+}
+.banner-headline h1{
+    color: #ffffff;
+    font-size: 50px;
+    text-shadow: 0 1px 0 #555555;
+    margin: 0;
+    padding: 0;
+    width: 300px;
+}
+.banner-headline h2{
+    color: #ffffff;
+    font-size: 19px;
+    text-shadow: 0 1px 0 #555555;
+    margin: 0;
+    padding: 0;
+    width: 300px;
 }
