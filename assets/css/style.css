@@ -48,4 +48,9 @@ nav a:active, nav a:hover{
     background: url('../img/img1.jpg') center;
     background-size: cover;
     height: 670px;
+    display: flex;
+    justify-content: center;
+}
+.column{
+    flex-direction: column;
 }
