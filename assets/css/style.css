@@ -40,8 +40,7 @@ nav a {
 	text-transform:uppercase;
 	color:#727272;
 }
-nav .active a,
-nav a:hover {
+nav a:hover, nav a:active {
 	background-color:#39aae1;
 	color:#FFFFFF;
 }
