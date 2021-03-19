@@ -108,6 +108,11 @@ nav a:hover, nav a:active {
 	margin-top:20px;
 	margin-bottom:20px;
 }
+.horario{
+	display: flex;
+	justify-content: space-between;
+}
+
 .banner_options a {
 	display:inline-block;
 	border:1px solid #FFFFFF;
