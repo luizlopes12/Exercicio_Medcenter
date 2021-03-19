@@ -112,7 +112,9 @@ nav a:hover, nav a:active {
 	display: flex;
 	justify-content: space-between;
 }
-
+.horario p{
+	margin: 13px 0px;
+}
 .banner_options a {
 	display:inline-block;
 	border:1px solid #FFFFFF;
